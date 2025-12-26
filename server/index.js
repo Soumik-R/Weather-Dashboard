@@ -3,12 +3,9 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 require("dotenv").config();
-
-// Initialize Express App
 const app = express();
 app.use(cors());
 
-// Weather API Endpoint (Current Weather)
 app.get("/weather", async (req, res) => {
   const city = req.query.city;
   const apiKey = process.env.API_KEY;
