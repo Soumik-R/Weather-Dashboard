@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:5000";
+const BASE_URL = "/api";
 
 export const getCurrentWeather = (city) => {
   return axios.get(`${BASE_URL}/weather?city=${city}`);
