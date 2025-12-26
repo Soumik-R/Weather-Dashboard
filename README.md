@@ -237,10 +237,10 @@ vercel env add API_KEY production
 
 ### Required Variables
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `API_KEY` | OpenWeatherMap API key | `a04cbc8c1546f3715753bb15f2ed9292` |
-| `PORT` | Server port (local dev only) | `5000` |
+| Variable | Description
+|----------|------------
+| `API_KEY` | OpenWeatherMap API key 
+| `PORT` | Server port (local dev only)
 
 ## 📡 API Endpoints
 
